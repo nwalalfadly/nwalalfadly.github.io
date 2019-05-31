@@ -1,0 +1,276 @@
+*{
+    color:rgb(17,28,36);
+    box-sizing: border-box;
+}
+/* start nav */
+nav ul{
+    margin-left:15%;
+    margin-right:15%;
+}
+.nav-link{
+    color:#fff;
+    font-size:1rem;
+    font-style: italic;
+    
+}
+nav .span{
+    color:rgb(224,17,157);
+    font-size:1.2rem;
+    font-style: italic;
+    
+}
+/* end nav */
+/* start header */
+/* start media query nav */
+@media (max-width: 575px) { 
+    nav .span{
+        color:rgb(224,17,157);
+        font-weight:bold;       
+    }  
+}
+@media (max-width: 767px) {
+    nav ul{
+    margin-left:10%;
+}
+ }
+@media (max-width: 991px) { 
+    nav ul{
+    margin-left:10%;
+ }
+}
+@media (max-width: 1199px) {
+     nav ul{
+    margin-left:6%;
+}
+ }
+/* end media query nav */
+header{
+    background-image: url('img/img (2).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+}
+
+header h1{
+    margin-top:10%;
+    font-size:4rem;
+    text-shadow:2px 2px rgb(224,17,157);
+}
+header span{
+    text-shadow:2px 2px #fff;
+}
+header p{
+    font-size:2.2rem;
+    text-shadow:2px 2px rgb(224,17,157);
+}
+header .butd{
+    margin-left:45%;
+    box-shadow: 5px 5px 5px #313030;
+}
+header a:hover{
+   color:rgb(224,17,157) !important;
+}
+header a:hover{
+    text-decoration: none; 
+ }
+header span{
+    color:rgb(224,17,157);
+}
+/* end header */
+/* start media query nav */
+@media (max-width: 575px) {
+    header .butd{
+        margin-left:42%;
+    }
+    }
+
+@media (max-width: 767px) {    
+
+    header .butd{
+        margin-left:41%;
+    }
+}
+
+@media (max-width: 991px) { 
+    header .butd{
+        margin-left:41%;
+    }
+}
+
+@media (max-width: 1199px) {
+    header .butd{
+        margin-left:45%;
+        box-shadow: 5px 5px 5px #313030;
+    }
+     }
+/* end media query nav */
+/* start sectionpropos */
+#propos{
+    line-height: 2;
+}
+#propos h2{
+    color:rgb(224,17,157);
+    text-shadow:2px 2px rgb(59, 58, 58);
+}
+#propos img{
+    width:100%;
+    height:50vh;
+    box-shadow: 4px 4px 4px 4px rgb(192, 186, 186);
+}
+#propos .btn{
+    box-shadow: 4px 4px 4px 4px rgb(192, 186, 186);
+}
+#propos li{
+    list-style-type: circle;
+}
+.one{
+    color:#0078F8;
+}
+.two{
+    color:rgb(224,17,157);
+}
+.three{
+    color:#707878;
+}
+.four{
+    color:#2196F3;
+}
+/* end sectionpropos */
+/* start media query nav */
+@media (max-width: 575px) {
+    #propos h2{
+        padding-top: 10px;
+    }
+    #propos p{
+       padding:3%;
+    }
+ }
+/* end media query nav */
+/* start section2 */
+#section2 .progress .progress-bar{
+    background-color: rgb(167,16,86);
+}
+#section2 h2{
+    text-shadow:2px 2px rgb(224,17,157);
+    font-size:3.2rem;
+}
+/* end section2 */
+/* start section3expérience */
+#expérience{
+    background-color:#F0F0F0;
+    margin-top:5rem;
+    line-height:2;
+}
+#expérience .five{
+    color:rgb(224,17,157);
+    text-shadow:2px 2px #212121; 
+}
+.parag :hover{
+    border:3.5px solid rgb(224,17,157);
+}
+#expérience h2{
+    text-shadow:2px 2px rgb(224,17,157);
+    font-size:3.2rem;   
+}
+#expérience img{
+    width:100%;
+    height:30vh;
+    box-shadow: 4px 4px 4px 4px rgb(192, 186, 186);
+}
+/* end sectionexpérience */
+/* start sectionportfolio */
+#portfolio img{
+width:100%;
+height:40vh;
+box-shadow: 4px 4px 4px 4px rgb(192, 186, 186);
+}
+#portfolio h2{
+    text-shadow:2px 2px rgb(39, 36, 37);
+    font-size:3.2rem;
+    color:rgb(224,17,157);
+}
+#portfolio p{
+    color:rgb(224,17,157);
+}
+/* end sectionportfolio */
+/* start sectioneducation */
+#education{
+    /* background: linear-gradient(0deg, #263238, #880EAF ); */
+    /* background-image: linear-gradient(to right, #F50057 , #e0e0e0); */
+    /* background: linear-gradient(0deg, #5787e7, #722b2b ); */
+    background-color: #F0F0F0 ;
+    line-height: 1.6;
+}
+#education span{
+    font-size:1.2rem;
+}
+#education small{
+    padding-top:1.2rem !important;
+}
+#education h2{
+    text-shadow:2px 2px rgb(39, 36, 37);
+    font-size:3.2rem;
+    color:rgb(224,17,157);
+}
+/* end sectioneducation */
+
+/* start footer */
+footer h2{
+    text-shadow:2px 2px rgb(39, 36, 37);
+    font-size:3.2rem;
+    color:rgb(224,17,157);
+}
+footer h3{
+    text-shadow:2px 2px rgb(224,17,157);
+}
+footer span{
+    font-weight:bold;
+}
+footer a{
+    color:rgb(29, 245, 0); 
+}
+footer a:hover{
+    color:rgb(224,17,157);
+    text-decoration: none; 
+}
+footer .btn{
+        box-shadow: 4px 4px 4px 4px rgb(192, 186, 186);
+    }  
+.foot{
+    background-color: #F0F0F0 ;  
+}
+
+/* end footer */
+#expérience .img1{
+    width:100%;
+    height:20vh;
+}
+#expérience .img2{
+    width:100%;
+    height:20vh;
+}
+#expérience .img3{
+    width:100%;
+    height:42vh;
+}
+#expérience .img4{
+    width:100%;
+    height:42vh;
+}
+#expérience .img5{
+    width:100%;
+    height:42vh;
+}
+#expérience .img6{
+    width:100%;
+    height:20vh;
+}
+#expérience .img7{
+    width:100%;
+    height:20vh;
+}
+#expérience .img8{
+    width:100%;
+    height:42vh;
+}
